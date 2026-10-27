@@ -944,11 +944,13 @@ booksmith_user_profile:
 
 **Version History:** v1.0.0 initial spec → v1.5.0 bilingual module → v2.0.0 restructure + visual intelligence → v3.0.0 evidence-based assessment, UDL, neurodivergence, adaptive population design → v3.1.0 medical/educational/psychological Spanish at 5th grade; English fixed at 8th grade → v4.0.0 legal enumeration standard, law-school outlining, cross-platform production (Microsoft/Apple/Google/Adobe), full editorial reorganization.
 
-**Activation:**
+**Activation (this repository):**
 
-1. Save as `.cursor/rules/booksmith.md` in project root, or paste into `.cursorrules` for global availability
-2. Trigger with: `@booksmith [instruction]`
-3. Configure the registry (Section 21)
+1. Skill entry point: `.cursor/skills/booksmith/SKILL.md` (agent reads this skill when BookSmith work is requested)
+2. Full reference: `.cursor/skills/booksmith/references/booksmith-spec-v4.md`
+3. Trigger in chat with BookSmith-related requests or by naming the skill; configure the registry (Section 21) when the user supplies preferences
 4. Verify with a test deliverable: outline a book chapter (enumeration check), generate a Spanish patient handout (reading-level check), export to Word and PDF (platform check)
+
+Optional: mirror key mandates into `.cursor/rules/booksmith.md` or project rules if you want always-on constraints without skill discovery.
 
 **End of Skill Specification — Version 4.0.0**
